@@ -53,11 +53,6 @@
 			path = ViewControllerNotesTests;
 			sourceTree = "<group>";
 		};
-		EAD279A52CA1A2A500AD7D8A /* ViewControllerNotesUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ViewControllerNotesUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +85,6 @@
 			children = (
 				EAD279812CA1A2A400AD7D8A /* ViewControllerNotes */,
 				EAD2799B2CA1A2A500AD7D8A /* ViewControllerNotesTests */,
-				EAD279A52CA1A2A500AD7D8A /* ViewControllerNotesUITests */,
 				EAD279802CA1A2A400AD7D8A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -165,9 +159,6 @@
 			);
 			dependencies = (
 				EAD279A42CA1A2A500AD7D8A /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				EAD279A52CA1A2A500AD7D8A /* ViewControllerNotesUITests */,
 			);
 			name = ViewControllerNotesUITests;
 			packageProductDependencies = (
